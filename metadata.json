@@ -1,0 +1,6 @@
+{
+  "name": "Mount Rinjani Trekking",
+  "description": "Premium landing page for Mount Rinjani trekking packages, featuring guided summit expeditions, interactive trails, volcanic crater lake tours, and adventure itineraries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
