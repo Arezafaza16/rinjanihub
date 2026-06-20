@@ -109,7 +109,7 @@ export default function Footer() {
                 <div>
                   <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Facebook Page:</span>
                   <a
-                    href="https://facebook.com/rinjanihub"
+                    href="https://www.facebook.com/rinjanihub3726/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-sunrise-400 text-stone-100 transition-colors"
