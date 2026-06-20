@@ -168,19 +168,19 @@ export default function TourPackages() {
                 </div>
 
                 {/* Card Action footer layout */}
-                <div className="border-t border-white/10 pt-6 mt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="border-t border-white/10 pt-6 mt-8 flex flex-col gap-5">
                   <div>
-                    <span className="text-[9px] font-mono text-stone-400 block">All-Inclusive Rate From</span>
-                    <div className="flex items-baseline gap-1 whitespace-nowrap">
-                      <span className="text-2xl md:text-3xl font-mono font-bold text-[#FDFCF8]">{pkg.priceDisplay}</span>
-                      <span className="text-xs text-stone-300 font-mono">/ person</span>
+                    <span className="text-[9px] font-mono text-stone-400 block mb-1.5">All-Inclusive Rate From</span>
+                    <div className="flex items-baseline gap-2 whitespace-nowrap">
+                      <span className="text-xl sm:text-2xl md:text-3xl font-mono font-bold text-[#FDFCF8] tracking-tight">{pkg.priceDisplay}</span>
+                      <span className="text-[11px] text-stone-400 font-mono">/ person</span>
                     </div>
                   </div>
 
                   <button
                     onClick={() => openPackageDetails(pkg)}
                     id={`trigger-package-details-${pkg.id}`}
-                    className="w-full sm:w-auto px-6 py-3 bg-white hover:bg-sunrise-500 hover:text-white text-[#1B2D24] font-mono text-[10px] uppercase tracking-widest font-bold rounded-sm transition-all duration-300 text-center flex items-center justify-center gap-2 group cursor-pointer whitespace-nowrap"
+                    className="w-full px-6 py-3.5 bg-white hover:bg-sunrise-500 hover:text-white text-[#1B2D24] font-mono text-[10px] uppercase tracking-widest font-bold rounded-sm transition-all duration-300 text-center flex items-center justify-center gap-2 group cursor-pointer whitespace-nowrap"
                   >
                     Package Details{" "}
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
