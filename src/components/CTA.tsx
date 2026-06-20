@@ -100,7 +100,7 @@ export default function CTA() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             {/* Booking Trigger CTA */}
             <a
-              href="https://wa.me/6281353144856"
+              href="https://wa.me/6285943482889"
               target="_blank"
               rel="noopener noreferrer"
               id="cta-whatsapp-booking-foot"

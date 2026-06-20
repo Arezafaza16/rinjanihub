@@ -157,7 +157,7 @@ export default function Hero() {
 
             {/* CTA WhatsApp Button */}
             <a
-              href="https://wa.me/6281353144856"
+              href="https://wa.me/6285943482889"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/15 text-stone-100 rounded-sm font-mono text-[10px] uppercase tracking-widest font-bold flex items-center justify-center gap-2 border border-stone-100/25 backdrop-blur-md transition-all duration-300"

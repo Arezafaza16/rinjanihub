@@ -60,7 +60,7 @@ export default function PackageModal({ isOpen, onClose, pkg }: PackageModalProps
     });
   };
 
-  const whatsAppLink = `https://wa.me/6281353144856?text=Halo%20Rinjani%20Hub!%20Saya%20tertarik%20memesan%20${encodeURIComponent(pkg.name)}.`;
+  const whatsAppLink = `https://wa.me/6285943482889?text=Halo%20Rinjani%20Hub!%20Saya%20tertarik%20memesan%20${encodeURIComponent(pkg.name)}.`;
 
   return (
     <div

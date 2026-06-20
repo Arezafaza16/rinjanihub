@@ -1,4 +1,4 @@
-import { Mountain, Phone, Mail, Instagram } from "lucide-react";
+import { Mountain, Phone, Mail, Instagram, Facebook } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -43,22 +43,19 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs md:text-sm">
               <li>
-                <a href="#why-us" className="hover:text-white transition-colors">Why Choose Us</a>
-              </li>
-              <li>
-                <a href="#about" className="hover:text-white transition-colors">About Rinjani</a>
-              </li>
-              <li>
                 <a href="#about-us" className="hover:text-white transition-colors">About Us</a>
               </li>
               <li>
                 <a href="#packages" className="hover:text-white transition-colors">Trekking Packages</a>
               </li>
               <li>
-                <a href="#majesty" className="hover:text-white transition-colors">Mount Rinjani</a>
+                <a href="#testimonials" className="hover:text-white transition-colors">Testimonials</a>
               </li>
               <li>
                 <a href="#location" className="hover:text-white transition-colors">Basecamp Location</a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
               </li>
             </ul>
           </div>
@@ -70,42 +67,68 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3 text-xs md:text-sm">
               <li className="flex items-start gap-3">
-                <Phone className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
+                <Mail className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
                 <div>
-                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Phone & WhatsApp Support:</span>
+                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Email:</span>
                   <a
-                    href="https://wa.me/6281353144856"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-sunrise-400 text-stone-100 font-mono font-medium transition-colors"
+                    href="mailto:rinjanihub26@gmail.com"
+                    className="hover:text-sunrise-400 text-stone-100 transition-colors"
                   >
-                    +62 813 5314 4856
+                    rinjanihub26@gmail.com
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
+                <Phone className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
                 <div>
-                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">General Inquiries:</span>
+                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Phone Call:</span>
                   <a
-                    href="mailto:bookings@rinjanihub.com"
+                    href="tel:+6285943482889"
+                    className="hover:text-sunrise-400 text-stone-100 font-mono font-medium transition-colors"
+                  >
+                    +62 859-4348-2889
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Phone className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
+                <div>
+                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">WhatsApp:</span>
+                  <a
+                    href="https://wa.me/6285943482889"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-sunrise-400 text-stone-100 font-mono font-medium transition-colors"
+                  >
+                    +62 859-4348-2889
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Facebook className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
+                <div>
+                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Facebook Page:</span>
+                  <a
+                    href="https://facebook.com/rinjanihub"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="hover:text-sunrise-400 text-stone-100 transition-colors"
                   >
-                    bookings@rinjanihub.com
+                    Rinjani Hub
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <Instagram className="w-4 h-4 text-sunrise-500 mt-0.5 shrink-0" />
                 <div>
-                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Community Social Media:</span>
+                  <span className="text-stone-400 block text-[10px] uppercase font-mono font-bold leading-none mb-1">Instagram:</span>
                   <a
-                    href="https://instagram.com"
+                    href="https://instagram.com/rinjani_hub"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-sunrise-400 text-stone-100 transition-colors"
                   >
-                    @rinjani.hub
+                    @rinjani_hub
                   </a>
                 </div>
               </li>

@@ -92,7 +92,7 @@ export default function Navbar() {
         {/* Desktop Conversion CTA Actions */}
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="https://wa.me/6281353144856"
+            href="https://wa.me/6285943482889"
             target="_blank"
             rel="noopener noreferrer"
             onMouseEnter={handleBtnEnter}
@@ -140,7 +140,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/6281353144856"
+            href="https://wa.me/6285943482889"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMobileMenuOpen(false)}
