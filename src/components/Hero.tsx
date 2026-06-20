@@ -130,7 +130,7 @@ export default function Hero() {
         {/* Texts Info (Col 7) */}
         <div ref={textGroupRef} className="lg:col-span-8 space-y-6 text-center lg:text-left mt-8 md:mt-0">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sunrise-500/10 border border-sunrise-500/30 text-sunrise-400 text-xs font-mono font-bold tracking-widest uppercase">
-            <Award className="w-4 h-4 text-sunrise-500 animate-pulse" /> Premium Rinjani Trekking Leader 2026
+            <Award className="w-4 h-4 text-sunrise-500 animate-pulse" /> Group Rinjani Trekking Leader 2026
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight leading-[1.1] text-stone-50">
