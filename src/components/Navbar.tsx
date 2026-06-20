@@ -19,11 +19,8 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Why Us", href: "#why-us" },
-    { name: "About Rinjani", href: "#about" },
     { name: "About Us", href: "#about-us" },
     { name: "Packages", href: "#packages" },
-    { name: "Mount Rinjani", href: "#majesty" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Location", href: "#location" },
     { name: "FAQ", href: "#faq" }
@@ -103,7 +100,7 @@ export default function Navbar() {
             id="nav-whatsapp-cta"
             className="flex items-center gap-2 px-6 py-2.5 bg-sunrise-500 text-white text-[10px] uppercase tracking-widest font-mono font-bold rounded-sm transition-all duration-300 shadow-lg shadow-sunrise-500/10 hover:shadow-sunrise-500/25"
           >
-            <Phone className="w-3 h-3" /> Book Trekking
+            <Phone className="w-3 h-3" /> Contact Us
           </a>
         </div>
 
